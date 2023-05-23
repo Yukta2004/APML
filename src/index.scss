@@ -1,0 +1,203 @@
+// @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@600&display=swap');
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  #navBar {
+    background-color: rgba(255, 255, 255, 0.897);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .navbar-brand {
+    color: black;
+    font-family: 'Mukta', sans-serif;
+    margin-left: 10px;
+  }
+  
+  .comp_name {
+    color: red
+  }
+  
+  .btn{
+    background-color: red;
+  }
+  
+  .btn btn-danger btn-sm my-1 mx-2 {
+    font-size: 2px;
+    cursor: pointer;
+    
+    
+  }
+  
+  .btn-danger:hover {
+    color: red;
+    background-color: white;
+    border: 1px solid red;
+    cursor: pointer;
+  }
+  
+  
+  #Section {
+    background-color: black;
+    color: white;
+    height: auto;
+  }
+  
+  
+  .SubSection {
+    height: auto;
+    width: 100%;
+    display: flex;
+  }
+  
+  
+  .Loaded {
+    width: 100%;
+    margin: 5px;
+  
+  }
+  
+  .Empty {
+    width: 100%;
+    margin: 5px;
+  }
+  
+  .heading {
+    font-size: 30px;
+    color: white;
+    text-align: start;
+  }
+  
+  .no_of_case {
+    background-color: red;
+    color: white;
+    font-Size: 35px;
+    width: 8%;
+    margin: 20px 20px;
+    border: 2px solid white;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .title {
+    color: white;
+  }
+  
+  .table {
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    margin: 5px;
+    border: 1px solid grey;
+  
+  }
+  
+  .tableHeading {
+    line-height: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: auto;
+    font-weight: bold;
+  }
+  
+  .tableTitle {
+    font-weight: bold;
+    text-align: center;
+    height: auto;
+    color: red;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 2px solid red;
+  }
+  
+  .table-active {
+    text-align: center;
+    height: auto;
+    color: white;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+
+  .spacing {
+    line-break: 2;
+    font-size: 10px;
+  }
+  
+
+  .textArea {
+    background-color: black;
+    color: yellow;
+    width: 90%;
+    height: auto;
+    align-items: center;
+  }
+  
+  .timeLeft {
+    color: rgb(44, 250, 3);
+    width: auto;
+  }
+  
+  @media(max-width: 1170px) {
+    #navBar {
+      flex-direction: column;
+    }
+  
+    .collapse navbar-collapse {
+      font-size: 14px;
+      margin: 25px;
+    }
+  
+    .btn-danger:hover {
+      color: red;
+      background-color: white;
+      border: 1px solid red;
+      cursor: pointer;
+    }
+  
+    .navbar-nav {
+      margin: 30px 15px 30px;
+    }
+  
+    #Section {
+      background-color: black;
+    }
+  
+    #Section .SubSection {
+      flex-direction: column;
+      width: 50%;
+  
+    }
+  
+    #Section .SubSection .Loaded {
+      width: 540px;
+    }
+  
+    #Section .SubSection .Loaded .heading {
+      font-size: 25px;
+    }
+  
+    #Section .SubSection .Loaded .heading .case {
+      font-size: 25px;
+    }
+  
+    #Section .SubSection .Empty {
+      width: 540px
+    }
+  
+    #Section .SubSection .Empty .heading {
+      font-size: 25px;
+    }
+  
+    #Section .SubSection .Empty .heading .case {
+      font-size: 25px;
+    }
+  
+    .table-active {
+      width: auto;
+    }
+  }
+
+
